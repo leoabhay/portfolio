@@ -6,34 +6,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
   <title>Abhay Chaudhary</title>
+    <style>
+    .thank-you-message {
+      display: none;
+      margin-top: 1rem;
+      color: green;
+      font-weight: bold;
+      text-align: center;
+    }
+  </style>
 </head>
 
 <body>
   <!-- Header -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#hero">
-            <h1><span>A</span>B<span>H</span>A<span>Y</span>  <span>C</span>HAU<span>D</span>HAR<span>Y</span></h1>
-          </a>
-        </div>
-<div class="nav-list">
-    <div class="hamburger">
-      <div class="bar"></div>
+<header class="header">
+  <div class="nav-bar">
+    <div class="brand">
+      <a href="#hero">
+        <h1><span>A</span>B<span>H</span>A<span>Y</span> <span>C</span>HAU<span>D</span>HAR<span>Y</span></h1>
+      </a>
     </div>
 
-    <ul>
-      <li><a href="#hero" data-after="Home">Home</a></li>
-      <li><a href="#about" data-after="About">About</a></li>
-      <li><a href="#services" data-after="Service">Skills</a></li>
-      <li><a href="#projects" data-after="Projects">Projects</a></li>
-      <li><a href="#contact" data-after="Contact">Contact</a></li>
-    </ul>
+    <div class="nav-list">
+  <ul>
+    <li><a href="#hero" data-after="Home">Home</a></li>
+    <li><a href="#about" data-after="About">About</a></li>
+    <li><a href="#services" data-after="Service">Skills</a></li>
+    <li><a href="#projects" data-after="Projects">Projects</a></li>
+    <li><a href="#contact" data-after="Contact">Contact</a></li>
+  </ul>
+</div>
+
   </div>
-</div>
-</div>
-</section>
+</header>
+  <!-- End Header -->
+
+  <!-- Hero Section -->
 <section id="hero">
     <div class="hero container">
       <div>
@@ -103,13 +111,23 @@
         </div>
 
         <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/?size=100&id=t3lRtmybvzBZ&format=png&color=000000"/></div>
-          <h2>MySQL</h2>
+          <div class="icon"><img src="https://img.icons8.com/color/48/typescript.png"/></div>
+          <h2>Typescript</h2>
+        </div>
+
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/color/48/angularjs.png"/></div>
+          <h2>Angular</h2>
         </div>
 
         <div class="service-item">
           <div class="icon"><img src="https://img.icons8.com/?size=100&id=59966&format=png&color=000000"/></div>
           <h2>C#</h2>
+        </div>
+
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/?size=100&id=t3lRtmybvzBZ&format=png&color=000000"/></div>
+          <h2>MySQL</h2>
         </div>
 
         <div class="service-item">
@@ -130,171 +148,176 @@
       </div>
       <div class="all-projects">
         <div class="project-item">
+          <div class="project-img">
+            <img src="/images/icecream.png" alt="img">
+          </div>
           <div class="project-info">
             <h1>Abhay Icecream Recipes</h1>
             <p>A simple web app built using Nodejs.</p>
             <a href="https://abhayicecreams.onrender.com/" target="_blank" class="cta">Click Here</a>
           </div>
-          <div class="project-img">
-            <img src="/images/icecream.png" alt="img">
-          </div>
         </div>
+
         <div class="project-item">
+          <div class="project-img">
+            <img src="/images/weather.png" alt="img">
+          </div>
           <div class="project-info">
             <h1>Weather App</h1>
             <p>A simple weather app built using Nodejs.</p>
             <a href="https://weatherbyabhay.onrender.com/" target="_blank" class="cta">Click Here</a>
           </div>
-          <div class="project-img">
-            <img src="/images/weather.png" alt="img">
-          </div>
         </div>
+
         <div class="project-item">
+          <div class="project-img">
+            <img src="/images/adminpanel.png" alt="img">
+          </div>
           <div class="project-info">
             <h1>Admin Panel</h1>
             <p>A simple admin panel built using Nodejs.</p>
             <a href="https://github.com/leoabhay/admin-panel---meaningby" target="_blank" class="cta">Click Here</a>
           </div>
-          <div class="project-img">
-            <img src="/images/adminpanel.png" alt="img">
-          </div>
         </div>
+
         <div class="project-item">
+          <div class="project-img">
+            <img src="/images/khanakhajana.png" alt="img">
+          </div>
           <div class="project-info">
             <h1>Khana Khajana</h1>
             <p>A recipe finder web app built using MERN.</p>
             <a href="https://github.com/leoabhay/khana" target="_blank" class="cta">Click Here</a>
           </div>
-          <div class="project-img">
-            <img src="/images/khanakhajana.png" alt="img">
-          </div>
         </div>
-        <!-- <div class="project-item">
-          <div class="project-info">
-            <h1>Meaning By</h1>
-            <p>An e-dictionary site built using React.</p>
-            <a href="#" class="cta">Click Here</a>
-          </div>
-          <div class="project-img">
-            <img src="/images/meaningby.png" alt="img">
-          </div>
-        </div> -->
+
         <div class="project-item">
+          <div class="project-img">
+            <img src="/images/blog.png" alt="img">
+          </div>
           <div class="project-info">
             <h1>Blog</h1>
             <p>A simple blog site built using Nodejs.</p>
             <a href="https://github.com/leoabhay/node-workshop" target="_blank" class="cta">Click Here</a>
           </div>
-          <div class="project-img">
-            <img src="/images/blog.png" alt="img">
-          </div>
         </div>
+
         <div class="project-item">
+          <div class="project-img">
+            <img src="/images//flappybird.png" alt="img">
+          </div>
           <div class="project-info">
             <h1>Flappy Bird</h1>
             <p>A simple game using Javascript.</p>
             <a href="https://leoabhay.github.io/flappy-bird/" target="_blank" class="cta">Click Here</a>
           </div>
-          <div class="project-img">
-            <img src="/images//flappybird.png" alt="img">
-          </div>
         </div>
+
         <div class="project-item">
+          <div class="project-img">
+            <img src="/images/moviesearch.png" alt="img">
+          </div>
           <div class="project-info">
             <h1>Movie Search</h1>
             <p>A simple website built using React.</p>
             <a href="https://github.com/leoabhay/movie-search" target="_blank" class="cta">Click Here</a>
           </div>
-          <div class="project-img">
-            <img src="/images/moviesearch.png" alt="img">
-          </div>
         </div>
+
         <div class="project-item">
+          <div class="project-img">
+            <img src="/images/currency.png" alt="img">
+          </div>
           <div class="project-info">
             <h1>Currency Converter</h1>
             <p>A simple web app built using JavaScript.</p>
             <a href="https://leoabhay.github.io/currency-converter" target="_blank" class="cta">Click Here</a>
           </div>
-          <div class="project-img">
-            <img src="/images/currency.png" alt="img">
-          </div>
         </div>
+
         <div class="project-item">
+          <div class="project-img">
+            <img src="/images/shopping cart.png" alt="img">
+          </div>
           <div class="project-info">
             <h1>Shopping Cart</h1>
             <p>A simple web app built using React.</p>
             <a href="https://github.com/leoabhay/shopping-cart" target="_blank" class="cta">Click Here</a>
           </div>
-          <div class="project-img">
-            <img src="/images/shopping cart.png" alt="img">
-          </div>
         </div>
+
         <div class="project-item">
+          <div class="project-img">
+            <img src="/images/portfolio.png" alt="img">
+          </div>
           <div class="project-info">
             <h1>Portfolio</h1>
             <p>A simple portfolio made using HTML and CSS.</p>
             <a href="https://github.com/leoabhay/portfolio" target="_blank" class="cta">Click Here</a>
           </div>
-          <div class="project-img">
-            <img src="/images/portfolio.png" alt="img">
-          </div>
         </div>
+
         <div class="project-item">
+          <div class="project-img">
+            <img src="/images/chat.png" alt="img">
+          </div>
           <div class="project-info">
             <h1>Real-Time Chat App</h1>
             <p>A simple real time chat app made using Nodejs and socket.io.</p>
             <a href="https://real-time-chat-app-49zt.onrender.com" target="_blank" class="cta">Click Here</a>
           </div>
+        </div>
+
+        <div class="project-item">
           <div class="project-img">
-            <img src="/images/chat.png" alt="img">
+            <img src="/images/campusease.png" alt="img">
+          </div>
+          <div class="project-info">
+            <h1>CampusEase</h1>
+            <p>A college automation system made using MEAN and python.</p>
+            <a href="https://github.com/leoabhay/CampusEase-frontend" target="_blank" class="cta">Click Here</a>
           </div>
         </div>
+
       </div>
     </div>
   </section>
   <!-- End Projects Section -->
 
-
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="contact container">
-      <div>
-        <h1 class="section-title">Contact <span>info</span></h1>
-      </div>
-      <div class="contact-items">
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
-          <div class="contact-info">
-            <h1>Phone</h1>
-            <h2>+977 9807580869</h2>
-            <h2>+977 9843007944</h2>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
-          <div class="contact-info">
-            <h1>Email</h1>
-            <h2>abhaycdry10@gmail.com</h2>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
-          <div class="contact-info">
-            <h1>Address</h1>
-            <h2>Shambhunath, Saptari</h2>
-          </div>
-        </div>
-      </div>
+<!-- Contact Section -->
+<section id="contact">
+  <div class="contact container">
+    <div>
+      <h1 class="section-title">Contact <span>me</span></h1>
     </div>
-  </section>
+    <div class="contact-form-container">
+      <form class="contact-form" action="https://formspree.io/f/mblkyypq" method="POST" id="contact-form">
+        <h2>Send me a message</h2>
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <input type="tel" name="phone" placeholder="Your Phone Number">
+        </div>
+        <div class="form-group">
+          <textarea name="message" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="cta">Send Message</button>
+        <div class="thank-you-message" id="thank-you">Thank you! Your message has been sent.</div>
+      </form>
+    </div>
+  </div>
+</section>
   <!-- End Contact Section -->
 
   <!-- Footer -->
   <section id="footer">
     <div class="footer container">
       <div class="brand">
-        <h1><span>A</span>bhay<span> C</span>haudhary</h1>
+        <h1><span>A</span>b<span>h</span>a<span>y</span> <span>C</span>ha<span>u</span>dhar<span>y</span></h1>
       </div>
       <!-- <h2>Your Complete Web Solution</h2> -->
       <div class="social-icon">
@@ -314,5 +337,34 @@
     </div>
   </section>
   <!-- End Footer -->
+
+<script>
+  // Minimal JS to show thank you message after form submission
+  const form = document.getElementById('contact-form');
+  const thankYouMessage = document.getElementById('thank-you');
+
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    const formData = new FormData(form);
+
+    const response = await fetch(form.action, {
+      method: 'POST',
+      body: formData,
+      headers: {
+        'Accept': 'application/json'
+      }
+    });
+
+    if (response.ok) {
+      form.reset();
+      thankYouMessage.style.display = 'block';
+    } else {
+      thankYouMessage.style.display = 'block';
+      thankYouMessage.style.color = 'red';
+      thankYouMessage.textContent = 'Oops! Something went wrong. Please try again.';
+    }
+  });
+</script>
+
 </body>
 </html>
